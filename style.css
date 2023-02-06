@@ -1,0 +1,81 @@
+body {
+  background: #b29f91;
+  background-image: url(back.png);
+}
+
+.back-img {
+  z-index: 0;
+}
+
+.title {
+  color: black;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 41.69%;
+  text-align: center;
+  color: #0a191e;
+  margin-bottom: 7px;
+}
+
+.suptitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 14%;
+  color: #8f9698;
+  margin-bottom: 77px;
+}
+
+.name-input {
+  margin-bottom: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  margin-left: 76.95px;
+}
+
+.input1 {
+  margin-left: 14%;
+
+  margin-bottom: 20px;
+  width: 272px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #b29f91;
+  border-radius: 10px;
+}
+
+.number-input {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  margin-left: 14%;
+  margin-left: 76.95px;
+}
+
+.input2 {
+  margin-left: 14%;
+
+  margin-bottom: 77px;
+  width: 272px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #b29f91;
+  border-radius: 10px;
+}
+
+.button-login {
+border: 0ch;
+  background: linear-gradient(101.87deg, #cb8a58 39.1%, #562b1a 114.65%);
+  border-radius: 17px;
+  padding: 15px 129px;
+  margin-left: 12%;
+}
