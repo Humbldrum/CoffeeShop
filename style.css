@@ -7,6 +7,11 @@ body {
   z-index: 0;
 }
 
+.container {
+  position: relative;
+  margin-left: 14%;
+}
+
 .title {
   color: black;
   font-family: "Raleway";
@@ -15,7 +20,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   margin-top: 41.69%;
-  text-align: center;
+margin-left: 14,5%;
   color: #0a191e;
   margin-bottom: 7px;
 }
@@ -25,7 +30,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  margin-left: 14%;
+  /* margin-left: 14%; */
   color: #8f9698;
   margin-bottom: 77px;
 }
@@ -41,7 +46,7 @@ body {
 }
 
 .input1 {
-  margin-left: 14%;
+  /* margin-left: 14%; */
 
   margin-bottom: 20px;
   width: 272px;
@@ -62,7 +67,7 @@ body {
 }
 
 .input2 {
-  margin-left: 14%;
+  /* margin-left: 14%; */
 
   margin-bottom: 77px;
   width: 272px;
@@ -73,9 +78,9 @@ body {
 }
 
 .button-login {
-border: 0ch;
+  border: 0ch;
   background: linear-gradient(101.87deg, #cb8a58 39.1%, #562b1a 114.65%);
   border-radius: 17px;
   padding: 15px 129px;
-  margin-left: 12%;
+margin-left: 12%;
 }
