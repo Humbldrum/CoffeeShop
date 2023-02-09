@@ -1,0 +1,126 @@
+
+header {
+    position: relative;
+
+    display: flex;
+    margin-top: 38px;
+    margin-left: 37px;
+margin-bottom: 17px ;
+    width: auto;
+}
+
+
+.adress {
+    width: 100%;
+    display: block;
+    margin-top: 6px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 12px;
+height: fit-content;
+
+}
+
+
+.phone-icon {
+float: right;
+margin-left: 25px;
+margin-right: 25px;
+height: fit-content;
+
+}
+
+
+.location {
+    height: fit-content;
+
+}
+
+.input input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    /* margin-left: 38px; */
+    border: 0;
+    background: #F8F7FA;
+    border: 1px solid #627281;
+    border-radius: 100px;
+    padding-left: 48px;
+    background-image: url(find-icon.jpg);
+background-repeat: no-repeat;
+background-position: 14px;
+}
+
+.input {
+    margin-left: 35px;
+    margin-right: 20px;
+margin-bottom: 27px
+}
+
+.menu-categories p {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+margin-left: 36px;
+font-feature-settings: 'liga' off, 'calt' off;
+margin-bottom: 17px;
+color: #000000;
+}
+
+
+
+.menu-categories {
+}
+
+.categotries-food {
+    position: relative;    
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 35px;
+    margin-right: 51px;
+    
+}
+
+
+.categotries-food  img {
+    width: 14.49px;
+    height: 18.41px;
+padding-top: 6px;
+padding-left: 6px;
+padding-right: 10px ;
+}
+.cat  {
+    position: relative;
+    padding-right: 5px;
+    padding-top: 6px;
+
+    color: #562B1A;
+    display: flex;
+    border: 1px solid #846046;
+border-radius: 33px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+text-transform: uppercase;
+}
+
+.cat img {
+    padding: 6px 7px;
+    width: 20px;
+    height: 20px;
+}
+
+.a {
+    padding-top: 7px;
+}
