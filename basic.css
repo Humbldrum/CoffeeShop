@@ -40,6 +40,7 @@ height: fit-content;
 
 .input input {
     box-sizing: border-box;
+    max-width: 500px;
     width: 100%;
     height: 50px;
     align-items: center;
@@ -78,13 +79,14 @@ color: #000000;
 }
 
 .categotries-food {
-    position: relative;    
+flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
     margin-left: 35px;
-    margin-right: 51px;
-    
+    margin-right: px;
+    margin-bottom: 24px;
+
 }
 
 
@@ -97,22 +99,14 @@ padding-right: 10px ;
 }
 .cat  {
     position: relative;
+    display: flex;
+justify-content: space-between;
     padding-right: 5px;
     padding-top: 6px;
-
     color: #562B1A;
-    display: flex;
     border: 1px solid #846046;
 border-radius: 33px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 800;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
-
-text-align: center;
-text-transform: uppercase;
+margin: 0 9px 5px ;
 }
 
 .cat img {
@@ -123,4 +117,150 @@ text-transform: uppercase;
 
 .a {
     padding-top: 7px;
+    margin: 0%;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+
+text-align: center;
+text-transform: uppercase;
+
+}
+
+
+.basic-menu {
+    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 57px;
+margin-right: 70px;
+margin-bottom: 5px;
+}
+
+
+.cappuccino, .espresso, .americano, .latte {
+    width: fit-content;
+    align-items: center;
+    border: 0.5px solid #BFBDC0;
+    border-radius: 15px;
+padding: 5px;
+margin-bottom: 22px;
+}
+
+
+
+.cappuccino .espresso .americano .latte p {
+    width: 83px;
+height: 24px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+margin: 0%;
+
+
+}
+
+
+.size {
+    display: flex;
+    justify-content: space-between;
+    width: 83px;
+    position: relative;
+}
+
+.s {
+    
+    text-align: center;
+    border: 0.5px solid #846046;
+border-radius: 30px;
+width: 24px;
+height: 10px;
+color: #846046;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 7px;
+margin-bottom: 8px;
+}
+
+.price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 6px;
+    /* identical to box height, or 133% */
+    margin-bottom: 11px;
+    
+    color: #000000;
+}
+
+.plus {
+    position: absolute;
+    width: 25px;
+    margin-left: 93px;
+    margin-top: -35px;
+}
+
+
+.americano, .latte {
+    margin-bottom: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+overflow: hidden;
+position: fixed;
+bottom: 0;
+width: 100%;
+    background-color: white;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+
+color: #BFBDC0;
+}
+
+
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+margin-top: 20px;
+margin-bottom: 23px;
+    margin-left: 35px;
+    margin-right: 70px;
+}
+
+
+
+.empty-white-room {
+    width: 80px;
+    height: 5px;
+    color: white;
+    background-color: white;
 }
